@@ -13,7 +13,7 @@ $ ep template < context.yml
 8:41AM INF generating MyProject/mask from=template/{{projectName}}/mask
 8:41AM INF generating MyProject/mask/masking_TABLE1.yml from=template/{{projectName}}/mask/masking_{{$[-2].tables.[].name}}.yml
 8:41AM INF generating MyProject/mask/masking_TABLE2.yml from=template/{{projectName}}/mask/masking_{{$[-2].tables.[].name}}.yml
-8:41AM INF generating MyProject/pseudo_AX.sh from=template/{{projectName}}/pseudo_{{$[-2].projectName}}.sh
+8:41AM INF generating MyProject/pseudo_MyProject.sh from=template/{{projectName}}/pseudo_{{$[-2].projectName}}.sh
 8:41AM INF end return=0
 ```
 
