@@ -1,0 +1,9 @@
+tables:
+  - name: "table_1"
+    columns:
+      - name: "column_1"
+      - name: "column_2"
+  - name: "table_2"
+    columns:
+      - name: "column_3"
+      - name: "column_4"

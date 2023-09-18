@@ -1,10 +1,15 @@
 # Venom Test Suite definition
 # Check Venom documentation for more information : https://github.com/ovh/venom
-name: run cli
+name: run emporte piece
 testcases:
   - name: no arguments
     steps:
-      - script: cli
+      - script: ep
         assertions:
-          - result.systemout ShouldContainSubstring Hello World!
+          - result.code ShouldEqual 1
+
+  - name: simple template
+    steps:
+      - script: ep --output 01-simple-template/result 01-simple-template/template < 01-simple-template/context.yml
+        assertions:
           - result.code ShouldEqual 0

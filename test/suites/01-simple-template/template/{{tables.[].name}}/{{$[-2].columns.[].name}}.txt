@@ -1,0 +1,4 @@
+{{$column := Stack -2 -}}
+{{$table := Stack -4 -}}
+Nom de la colonne : {{$column.name}}
+Nom de la table : {{$table.name}}

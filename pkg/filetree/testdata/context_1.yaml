@@ -1,0 +1,31 @@
+departements:
+  - numero: 1
+    nom: "Ain"
+    villes:
+      - nom: "Bourg-en-Bresse"
+        population: 41681
+        restaurants:
+          - nom: "Auberge Bressane"
+          - nom: "Mets et Vins"
+          - nom: "Place Bernard"
+      - nom: "Oyonnax"
+        population: 22271
+        restaurants:
+          - nom: "La Renaissance"
+          - nom: "Les saveurs d'Italie"
+          - nom: "Le Chalet Gourmand"
+  - numero: 2
+    nom: "Aisne"
+    villes:
+      - nom: "Saint-Quentin"
+        population: 53100
+        restaurants:
+          - nom: "Al Taglio Pizza"
+          - nom: "Chez Jean"
+          - nom: "Au Made In France"
+      - nom: "Soissons"
+        population: 43580
+        restaurants:
+          - nom: "Le Bouche à Oreilles"
+          - nom: "Léon"
+          - nom: "La Cathédrale"

@@ -1,0 +1,2 @@
+Nom de la colonne : column_2
+Nom de la table : table_1
